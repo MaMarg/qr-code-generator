@@ -1,6 +1,7 @@
 <?php /* Template Name: Redirect Template */ ?>
 
 <?php
+//This is the WordPress template, paste it into your theme folder.
 
 global $wpdb;
 $androidResults = $wpdb->get_results('SELECT Hyperlink FROM prev_redirect_urls WHERE OS = "android";');
